@@ -1,6 +1,12 @@
 package com.pradeep.garudable;
 
-public class GarudaBelManager implements GarudaBle {
+public class GarudaBel implements GarudaBle {
+
+
+    @Override
+    public void setBleConfiguration() {
+
+    }
 
     @Override
     public void startBleScan() {
